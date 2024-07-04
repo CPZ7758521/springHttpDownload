@@ -1,0 +1,2 @@
+# springHttpDownload
+可以对接前端页面，返回数据流给前端的Spring项目，可以通过Http请求下载，网页内容
