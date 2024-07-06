@@ -8,5 +8,5 @@ import java.io.IOException;
 public interface DownloadService {
     public void download(String urlStr, String fileName, String savePath) throws IOException;
 
-    public ResponseEntity<Resource> directDownload(String urlStr, String fileName, String savePath);
+    public ResponseEntity<Resource> directDownload(String urlStr, String fileName, String savePath) throws IOException;
 }
